@@ -26,7 +26,7 @@ cli = ["dep:clap"]
 [dependencies]
 fhir-diff = { version = "0.1.2", default-features = false, features = ["registry"] }
 octofhir-fhirpath = { version = "0.5.9", default-features = false }
-octofhir-fhirschema = { version = "0.3.38", default-features = false }
+octofhir-fhirschema = { version = "0.3.41", default-features = false }
 octofhir-sof = "0.3.5"
 clap = { version = "4.6", features = ["derive"], optional = true }
 serde_json = "1"
